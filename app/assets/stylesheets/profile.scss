@@ -30,12 +30,12 @@ $image_size: 56px;
       justify-content: center;
       font-size: 12px;
       border-radius: 4px;
-      border: 1px solid $primary-color;
+      border: 1px solid $text-base-color;
       font-weight: bold;
       padding: 0px 8px;
 
       a {
-        color: $primary-color;
+        color: $text-base-color;
       }
     }
 

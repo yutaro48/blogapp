@@ -5,7 +5,7 @@
     border: none;
     width: 100%;
     text-align: center;
-    color: white;
+    color: $text-base-color;
     padding: 16px 0;
     font-weight: bold;
   }
@@ -15,7 +15,7 @@
   border: solid 1px $primary-color;
   width: 100%;
   text-align: center;
-  color: $primary-color;
+  color: $text-base-color;
   padding: 16px 0;
   font-weight: bold;
 }
