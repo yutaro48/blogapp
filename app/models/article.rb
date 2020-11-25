@@ -21,8 +21,6 @@ class Article < ApplicationRecord
     validates :title, format: { with: /\A(?!\@)/ }
 
     validates :content, presence: true
-    validates :content, length: { minimum: 10 }
-    validates :content, uniqueness: true
 
     has_many :comments, dependent: :destroy
     belongs_to :user
