@@ -27,6 +27,7 @@ gem 'better_errors'
 gem 'binding_of_caller'
 gem 'devise'
 gem 'faker'
+gem 'active_model_serializers'
 gem 'hamlit'
 gem 'aws-sdk-s3', require: false
 
