@@ -21,9 +21,12 @@
         .dropdown
           = image_tag current_user.avatar_image, class: 'header_avatar dropbtn'
           .dropdown-content
-            = link_to 'プロフィール', profile_path
-            = link_to 'お気に入り', favorites_path
-            = link_to 'ログアウト', destroy_user_session_path, data: { method: 'delete'}
+            = link_to profile_path do
+              = I18n.t('articles.profile')
+            = link_to favorites_path do
+              = I18n.t('articles.favorites')
+            = link_to destroy_user_session_path, data: { method: 'delete'} do
+              = I18n.t('articles.log_out')
       -else
         = link_to new_user_session_path do
           = image_tag 'log-in.png', class: 'header_loginBtn'
