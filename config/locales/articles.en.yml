@@ -1,0 +1,13 @@
+en:
+  articles:
+    comment_list: 'Comment list'
+    new_articles: 'New articles'
+    timeline: 'Timeline'
+    profile: 'Profile'
+    favorites: 'Favorites'
+    log_out: 'Log out'
+    add_comment: 'Add comments'
+    edit: 'Edit'
+    delete: 'Delete'
+    submit: 'Submit'
+    favorite_atricles: 'Favorite articles'

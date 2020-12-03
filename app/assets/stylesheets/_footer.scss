@@ -1,0 +1,11 @@
+@import './variables'; 
+
+.footer-container {
+    padding: 8px 16px;
+    font-size: 12px;
+    background-color: #ebeeee;
+    color: $text-base-color;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }

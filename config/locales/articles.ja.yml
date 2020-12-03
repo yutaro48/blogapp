@@ -1,0 +1,13 @@
+ja:
+  articles:
+    comment_list: 'コメント一覧'
+    new_articles: '新着記事一覧'
+    timeline: 'タイムライン'
+    profile: 'プロフィール'
+    favorites: 'お気に入り'
+    log_out: 'ログアウト'
+    add_comment: 'コメントを追加'
+    edit: '編集する'
+    delete: '削除する'
+    submit: '保存'
+    favorite_atricles: 'お気に入りの記事'
